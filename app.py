@@ -11,6 +11,7 @@ from flask import Flask
 @app.route('predict', methods = ['GET','POST'])
 def predict():
     # prediction logic 
+    # Arati Edit 
     return "API"
 
 if __name__ == "__main__":
