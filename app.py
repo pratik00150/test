@@ -8,13 +8,6 @@ import pandas as pd
 from flask import Flask
 
 
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return "Default API"
-
-
 @app.route('predict', methods = ['GET','POST'])
 def predict():
     # prediction logic 
